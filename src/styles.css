@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+.back{
+    background-image: url('https://picsum.photos/id/1018/1200/800');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.miForm{
+    min-height: 350px !important;
+}
+.card-login{
+    margin-top: -50px !important;
+}
+
+.card-header-login{
+    background: linear-gradient(60deg, #8e9c8a, #0d792d) !important;
+}
+
+.card .card-header-login {
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(26, 63, 9, 0.6);
+}
+
+.form-control, .is-focused .form-control{
+    background-image: linear-gradient(to top, #1f7226 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.sub::after{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: rgb(110, 143, 110);
+    margin: 10px auto;
+}
+
+@media screen and (max-width : 400px){
+    .sub::after{
+        width: 100px;
+    }
+}
+
+.section{
+    padding: 40px 0 !important;
+}
+
+.bg-navs{
+    background-image: linear-gradient(60deg, #c6cfc3c4, #abb1adb2);
+}
+
+.head h4{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.head{
+    background: transparent;
+    box-shadow: none;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.head a{
+    font-weight: 700 !important;
+}
+
+.login{
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.card-text{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.alerta{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+}
+
+.perfil{
+    width: 40%;
+}
+
+@media screen and (max-width : 500px){
+    .perfil{
+        width: 60%;
+    }
+    .main.main-raised{
+        margin-top: -100px;
+    }
+}
+
+#accordion{
+    margin-top: -130px;
+}
+
+#accordion>.card .card-header {
+    border-radius: 0;
+    padding: 10px 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 0;
+}

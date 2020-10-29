@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "xeon-5a6d2": {
+      "hosting": {
+        "Xeon": [
+          "xeon-5a6d2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "xeon-5a6d2"
+  }
+}
